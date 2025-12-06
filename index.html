@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title style="align-self: center;">Soundboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Soundboard</h1>
+    </header>
+    <main>
+        <div class="soundboard">
+            <div class="box">
+                <button class="sound-button" data-sound="undertaker.mp3">Undertaker</button>
+                <label>Pitch Slider</label>
+                <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="undertaker.mp3">
+            </div>
+            <div class="box">
+            <button class="sound-button" data-sound="bruh.mp3">Bruh</button>
+            <label>Pitch Slider</label>
+            <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="bruh.mp3">
+        </div>
+            <div class="box"><button class="sound-button" data-sound="yahoo.mp3">Yahoo</button>
+            <label>Pitch Slider</label>
+            <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="yahoo.mp3">
+        </div>
+            <div class="box">
+                <button class="sound-button" data-sound="Wilhelm.wav">Wilhelm</button>
+                <label>Pitch Slider</label>
+                <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="Wilhelm.wav">
+            </div>
+            <div class="box">
+                <button class="sound-button" data-sound="Moo.wav">Moo</button>
+                <label>Pitch Slider</label>
+                <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="Moo.wav">
+            </div>
+            <div class="box">
+                <button class="sound-button" data-sound="Laugh.wav">Laugh</button>
+                <label>Pitch Slider</label>
+                <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="Laugh.wav">
+            </div>
+            <div class="box">
+                <button class="sound-button" data-sound="Fart.wav">Fart</button>
+                <label>Pitch Slider</label>
+                <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="Fart.wav">
+            </div>
+            <div class="box">
+                <button class="sound-button" data-sound="Meow.wav">Meow</button>
+                <label>Pitch Slider</label>
+                <input class="pitch-slider" type="range" min="0.5" max="2" step="0.01" value="1" data-sound="Meow.wav">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="master-volume-container">
+    <label>Master Volume:</label>
+    <input
+        type="range"
+        id="master-volume"
+        min="0"
+        max="1"
+        step="0.01"
+        value="1"
+    >
+</div>
+    <button id="mute-toggle">Mute</button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

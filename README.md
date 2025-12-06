@@ -2,4 +2,4 @@
 
 ### Just a simple soundboard with some goofy sounds and pitch control. ##
 
-## [Have fun ;D](https://divittas.github.io/SoundBoard/) #
+## [Have fun ;D (click me)](https://divittas.github.io/SoundBoard/) #
